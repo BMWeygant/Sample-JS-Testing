@@ -1,0 +1,25 @@
+{
+  "name": "the-last-one",
+  "version": "0.0.1",
+  "description": "I mean you know, ya mean",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMWeygant/Sample-JS-Testing.git"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BMWeygant/Sample-JS-Testing/issues"
+  },
+  "homepage": "https://github.com/BMWeygant/Sample-JS-Testing#readme"
+}
