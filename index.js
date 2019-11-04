@@ -16,6 +16,8 @@ return "Some wild shit!"
 
 const myBeverage = {
     delicious: true,
-    sour: false
+    sour: false,
+    full:true
 }
+
 module.exports = {add, sub, total, stringTheory, myBeverage}
