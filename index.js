@@ -14,7 +14,7 @@ const myBeverage = {
     full: true
 }
 
-//Solution to test that requires another predefined function to be used within this function
+//Solution to test total and verify other predefined functions are usable for test purposes
 const total = (subTotal, shipping) => {
     newTotal = add(subTotal, shipping)
        return '$' + `${newTotal}`
