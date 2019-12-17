@@ -13,7 +13,7 @@ describe('Math Labs', () => {
     })
 })
     describe('total', () => {
-        test('total', () => {
+        test('total() is a function that returns the sum of its arguments of subTotal & shipping', () => {
             expect(total(10, 15)).toBe('$25')
             expect(total(20, 25)).toBe('$45')
         })
