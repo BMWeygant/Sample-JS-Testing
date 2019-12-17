@@ -3,12 +3,12 @@ const {add, sub, total, stringTheory, myBeverage} = require('./index');
 
 describe('Math Labs', () => {
     describe('add', () => {
-        test('A function that takes 2 arguments,adds them together, and returns the sum', () => {
+        test('add() is a function that takes 2 arguments,adds them together, and returns the sum', () => {
          expect(add(1, 2)).toBe(3)
     })
 })
     describe('sub', () => {
-        test('A function that takes 2 arguments, subtracts them, and returns the difference', () => {
+        test('sub() is a function that takes 2 arguments, subtracts them, and returns the difference', () => {
             expect(sub(2, 1)).toBe(1)
     })
 })
